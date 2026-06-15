@@ -20,7 +20,7 @@
 
     /* ---------- Promo bar ---------- */
     .promo-bar {
-      background: #8cc63f;
+      background: linear-gradient(90deg, #6d28d9 0%, #9333ea 50%, #c026d3 100%);
       color: #ffffff;
       text-align: center;
       font-size: 14px;
@@ -56,7 +56,7 @@
       color: #2b2b2b;
       transition: color .2s;
     }
-    .nav-desktop a:hover { color: #8cc63f; }
+    .nav-desktop a:hover { color: #9333ea; }
 
     .header-icons {
       display: flex;
@@ -110,8 +110,8 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      background: radial-gradient(ellipse at 62% 45%, #eef2b6 0%, #c4dd7e 38%, #9ac74e 70%, #7cae3a 100%);
-      box-shadow: 0 10px 30px rgba(0,0,0,.08);
+      background: radial-gradient(ellipse at 62% 45%, #f3e8ff 0%, #d8b4fe 38%, #a855f7 70%, #7c3aed 100%);
+      box-shadow: 0 10px 30px rgba(124,58,237,.18);
     }
     .hero-card h1 {
       font-size: 38px;
@@ -123,7 +123,7 @@
     }
     .btn {
       display: inline-block;
-      background: #2b2b38;
+      background: linear-gradient(135deg, #7c3aed 0%, #9333ea 50%, #c026d3 100%);
       color: #ffffff;
       font-size: 15px;
       font-weight: 500;
@@ -144,7 +144,7 @@
       background: linear-gradient(120deg, transparent 35%, rgba(255,255,255,.45) 50%, transparent 65%);
       transform: translateX(-100%);
     }
-    .btn:hover { background: #3d3d4f; transform: translateY(-2px); }
+    .btn:hover { background: linear-gradient(135deg, #6d28d9 0%, #a21caf 100%); transform: translateY(-2px); }
     .btn:hover::after { animation: shimmer 1s ease; }
 
     /* ---------- Featured products ---------- */
@@ -256,7 +256,7 @@
       background: #d0d0d0;
       cursor: pointer;
     }
-    .dots .dot.active { background: #2b2b38; }
+    .dots .dot.active { background: #7c3aed; }
 
     /* ---------- Feature promo blocks ---------- */
     .features {
@@ -273,11 +273,11 @@
       border-radius: 16px;
       overflow: hidden;
       min-height: 210px;
-      background: linear-gradient(90deg, #fdf6d0 0%, #faecac 100%);
+      background: linear-gradient(90deg, #f5ecff 0%, #e3ccff 100%);
     }
     .feature-row.reverse {
       flex-direction: row-reverse;
-      background: linear-gradient(90deg, #faecac 0%, #fdf6d0 100%);
+      background: linear-gradient(90deg, #e3ccff 0%, #f5ecff 100%);
     }
     .feature-img { flex: 0 0 38%; overflow: hidden; }
     .feature-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s ease; }
@@ -293,7 +293,7 @@
       font-size: 11px;
       letter-spacing: 1.5px;
       font-weight: 600;
-      color: #9a9a6a;
+      color: #9333ea;
       margin-bottom: 8px;
     }
     .feature-text h2 {
@@ -311,7 +311,7 @@
     }
     .fbtn {
       display: inline-block;
-      background: #2b2b38;
+      background: linear-gradient(135deg, #7c3aed 0%, #9333ea 50%, #c026d3 100%);
       color: #fff;
       padding: 11px 22px;
       border-radius: 5px;
@@ -319,7 +319,7 @@
       width: fit-content;
       transition: opacity .2s;
     }
-    .fbtn.outline { background: transparent; color: #2b2b38; border: 1px solid #2b2b38; }
+    .fbtn.outline { background: transparent; color: #7c3aed; border: 1px solid #7c3aed; }
     .fbtn:hover { opacity: .85; }
 
     /* ---------- Clients ---------- */
@@ -344,7 +344,7 @@
       height: 36px;
       border: none;
       border-radius: 50%;
-      background: #c2c2c2;
+      background: linear-gradient(135deg, #9333ea, #c026d3);
       color: #fff;
       font-size: 18px;
       line-height: 1;
@@ -357,7 +357,7 @@
 
     /* ---------- Footer ---------- */
     .site-footer {
-      background: radial-gradient(ellipse at 50% 135%, #eef3c0 0%, #a6cc5c 48%, #6fa233 100%);
+      background: radial-gradient(ellipse at 50% 135%, #f3e8ff 0%, #b070f0 48%, #7c3aed 100%);
       padding: 48px 22px 26px;
     }
     .footer-top {
@@ -372,7 +372,7 @@
     .footer-sub h3 {
       font-size: 20px;
       font-weight: 600;
-      color: #1c2b16;
+      color: #3b1d6e;
       margin-bottom: 18px;
     }
     .sub-form { display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
@@ -387,22 +387,23 @@
     }
     .sub-form button {
       background: #fff;
-      color: #2b2b38;
+      color: #7c3aed;
       border: none;
       padding: 11px 28px;
       border-radius: 4px;
       letter-spacing: 1px;
       font-size: 13px;
+      font-weight: 600;
       cursor: pointer;
     }
     .footer-social { display: flex; gap: 16px; padding-top: 6px; }
-    .footer-social a { color: #1c2b16; }
+    .footer-social a { color: #3b1d6e; }
     .footer-social svg { width: 22px; height: 22px; fill: currentColor; }
     .footer-bottom {
       max-width: 1180px;
       margin: 34px auto 0;
       font-size: 12px;
-      color: #2e3d1c;
+      color: #3b1d6e;
     }
 
     /* ---------- WhatsApp floating button ---------- */
